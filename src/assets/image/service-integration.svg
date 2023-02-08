@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_3_);}
+	.st1{fill:url(#XMLID_4_);}
+	.st2{fill:url(#XMLID_5_);}
+</style>
+<g id="XMLID_6_">
+	<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="242.4833" y1="200.0202" x2="368.688" y2="200.0202">
+		<stop  offset="0" style="stop-color:#1541A7"/>
+		<stop  offset="1" style="stop-color:#3B15A7"/>
+	</linearGradient>
+	<path id="XMLID_26_" class="st0" d="M265.8,302.9c-6.1-5.8-12.3-11.8-18.6-17.9c-1.5-1.4-3-2.9-4.3-4.5c-0.3-0.4,0.1-1.8,0.6-2.3
+		c9.2-9.3,18.4-18.5,27.7-27.7c12.7-12.6,25.6-25.1,38.3-37.6c4.3-4.2,8.5-8.5,12.5-12.4c-6.9-7.2-13.6-14.2-20.4-21.1
+		c-6.6-6.8-13.1-13.5-19.8-20.2c-6-5.9-12.1-11.7-18.1-17.5c-5.8-5.7-11.6-11.5-17.4-17.3c-0.9-0.9-1.8-1.7-2.7-2.5
+		c-1.1-0.9-1.3-1.4,0-2.7c4.5-4.2,8.6-8.8,13-13.1c3.1-3.1,6.4-6.1,9.4-8.9c34.3,34.3,68.7,68.7,102.9,102.8
+		C334.6,234.1,300.2,268.5,265.8,302.9z"/>
+	<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="26.4981" y1="199.9785" x2="152.6935" y2="199.9785">
+		<stop  offset="0" style="stop-color:#1541A7"/>
+		<stop  offset="1" style="stop-color:#3B15A7"/>
+	</linearGradient>
+	<path id="XMLID_25_" class="st1" d="M26.5,199.7c33.8-33.8,68.2-68.2,103.2-103.2c7.4,7.7,15,15.6,23,23.9
+		c-26.6,26.3-53.3,52.8-80.9,80.1c3,2.6,6,5,8.8,7.7c10.9,10.8,21.6,21.6,32.4,32.4c6.3,6.2,12.7,12.3,19.1,18.5
+		c5.4,5.2,10.6,10.6,16,15.9c1.1,1.1,2.4,2,3.4,3.2c0.4,0.5,0.5,2,0.1,2.4c-7.2,7.7-14.5,15.4-21.5,22.7
+		C95,268.3,60.6,233.9,26.5,199.7z"/>
+</g>
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="153.8337" y1="199.9785" x2="241.3525" y2="199.9785">
+	<stop  offset="0" style="stop-color:#1541A7"/>
+	<stop  offset="1" style="stop-color:#3B15A7"/>
+</linearGradient>
+<polygon id="XMLID_1_" class="st2" points="168.7,337.5 153.8,333.5 226.5,62.4 241.4,66.4 "/>
+</svg>
