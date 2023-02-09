@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://webji-api.000webhostapp.com/api/"
+const API_URL = process.env.API_URL
 
 function getProjects() {
     const projects = axios.get(API_URL + 'projects')
