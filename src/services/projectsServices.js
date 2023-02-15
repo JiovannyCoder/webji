@@ -1,6 +1,6 @@
 import axios from "./axios"
 
-const API_URL = process.env.API_URL
+const API_URL = process.env.VUE_APP_API_URL
 
 function getProjects() {
     const projects = axios.get(API_URL + 'projects')
