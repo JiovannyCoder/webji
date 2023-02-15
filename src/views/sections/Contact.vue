@@ -38,7 +38,7 @@
                                         <v-textarea variant="outlined" v-model="message"  :rules="[ rules.required, rules.length(10)]" label="Message" rows="4" color="indigo"></v-textarea>
                                     </v-col>
                                     <v-col cols="12" class="text-center">
-                                        <v-btn :loading="loading" @click="submit" color="primary" prepend-icon="mdi-send" density="comfortable" size="large" class="text-capitalize">Envoyer le message</v-btn>
+                                        <v-btn :loading="loading" @click="submit" color="primary" density="comfortable" size="large" class="text-capitalize">Envoyer le message</v-btn>
                                     </v-col>
                                     <v-col cols="12" class="text-center" v-if="error_message">
                                         <p v-if="error_message.email" class="text-subtitle-1 text-error">{{ error_message.email[0] }}</p>

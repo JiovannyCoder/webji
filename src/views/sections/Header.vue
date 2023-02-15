@@ -16,8 +16,8 @@
                             <v-btn icon flat color="primary"><v-icon size="large"  icon="mdi-skype" /></v-btn>
                         </div>
                         <div class="mt-4 d-flex justify-center justify-md-start flex-wrap">
-                            <v-btn  size="large" color="warning" v-scroll-to="`#projects`" prepend-icon="mdi-cube-outline" class="text-capitalize ma-1" density="comfortable" >Voir mes projets</v-btn>
-                            <v-btn  size="large" variant="outlined" color="white" v-scroll-to="`#about`" prepend-icon="mdi-account" class="text-capitalize ma-1" density="comfortable" >Qui suis-je ?</v-btn>
+                            <v-btn  size="large" color="warning" v-scroll-to="`#projects`" class="text-capitalize ma-1">Voir mes projets</v-btn>
+                            <v-btn  size="large" variant="outlined" color="white" v-scroll-to="`#about`" class="text-capitalize ma-1">Qui suis-je ?</v-btn>
                         </div>
                     </v-col>
                     <v-col cols="12" md="6"  align-self="center" class="d-flex justify-center justify-md-end">
