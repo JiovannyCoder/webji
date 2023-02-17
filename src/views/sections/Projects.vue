@@ -88,7 +88,7 @@ export default {
             categories_are_loading: false,
             error_projects: '',
             error_categories: '',
-            API_URL: 'https://webji-api.000webhostapp.com/'
+            API_URL: process.env.VUE_APP_API_URL
         }
     },
     computed: {
@@ -116,21 +116,20 @@ export default {
     created() {
             this.projects_are_loading =true
             this.categories_are_loading = true
-
-            getCategories().then(data => {
-                this.categories = data.data
-                this.categories_are_loading = false
-            }).catch(e => {
-                console.log('Error occured during categories loading : ', e)
-                this.error_categories = 'Echec du chargement des categories'
-            })
-            getProjects().then(data => {
-                this.projects = data.data
-                this.projects_are_loading =false
-            }).catch(e =>{
-                console.log('Error occured during projects loading : ', e)
-                this.error_projects = 'Echec du chargement des projects'
-            })
+                getCategories().then(data => {
+                    this.categories = data.data
+                    this.categories_are_loading = false
+                }).catch(e => {
+                    console.log('Error occured during categories loading : ', e)
+                    this.error_categories = 'Echec du chargement des categories'
+                })
+                getProjects().then(data => {
+                    this.projects = data.data
+                    this.projects_are_loading =false
+                }).catch(e =>{
+                    console.log('Error occured during projects loading : ', e)
+                    this.error_projects = 'Echec du chargement des projects'
+                })
     }
 }
 </script>
